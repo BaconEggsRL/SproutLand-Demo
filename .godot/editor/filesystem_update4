@@ -1,0 +1,5 @@
+res://entities/Player.tscn
+res://components/hitbox_component.gd
+res://scenes/World.tscn
+res://entities/Player.gd
+res://scenes/TileMap.gd

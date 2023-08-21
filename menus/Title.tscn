@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtiscdtug5xf1"]
+
+[ext_resource type="Script" path="res://menus/Title.gd" id="1_rnvy6"]
+[ext_resource type="Theme" uid="uid://b5jgi17wxpqf2" path="res://assets/Themes/theme_sproutland.tres" id="2_irut3"]
+
+[node name="Title" type="Node2D"]
+script = ExtResource("1_rnvy6")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 650.0
+
+[node name="Play" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -108.0
+offset_top = -108.0
+offset_right = 108.0
+offset_bottom = -34.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_irut3")
+text = "Play"
+icon_alignment = 1
+
+[node name="Quit" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -108.0
+offset_top = 35.0
+offset_right = 108.0
+offset_bottom = 109.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_irut3")
+text = "Quit"
+icon_alignment = 1
+
+[connection signal="button_up" from="Control/Play" to="." method="_on_play_button_up"]
+[connection signal="button_up" from="Control/Quit" to="." method="_on_quit_button_up"]

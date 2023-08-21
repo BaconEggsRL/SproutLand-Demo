@@ -1,0 +1,61 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1692599685
+export_presets.cfg::TextFile::-1::1692589762::0::1::::<><>::
+::res://assets/::1692564812
+::res://assets/Sprout Lands/::1692558550
+read_me.txt::TextFile::-1::1657830314::0::1::::<><>::
+::res://assets/Sprout Lands/Characters/::1692558750
+Basic Charakter Actions.png::CompressedTexture2D::5432134035298934865::1647017940::1692558750::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::8258802483153431735::1644660782::1692558750::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::4894984402601410902::1688792516::1692558750::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::3835644758426151549::1686901518::1692558750::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::2143886430089246666::1642842810::1692558750::1::::<><>::
+Tools.png::CompressedTexture2D::5116637457043311288::1647018162::1692558750::1::::<><>::
+::res://assets/Sprout Lands/Objects/::1692558750
+Basic Furniture.png::CompressedTexture2D::2437495329470197023::1640172806::1692558750::1::::<><>::
+Basic Grass Biom things 1.png::CompressedTexture2D::7260264810646042549::1641385164::1692558750::1::::<><>::
+Basic Plants.png::CompressedTexture2D::8133150796771938896::1640170444::1692558750::1::::<><>::
+Basic tools and meterials.png::CompressedTexture2D::1176014037362427260::1647018488::1692558750::1::::<><>::
+Chest.png::CompressedTexture2D::965828361358147341::1643115086::1692558750::1::::<><>::
+Egg item.png::CompressedTexture2D::6185207276099164583::1686902478::1692558750::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::119204068090560700::1688792342::1692558750::1::::<><>::
+Paths.png::CompressedTexture2D::4676566885449131108::1642841964::1692558750::1::::<><>::
+Simple Milk and grass item.png::CompressedTexture2D::586543486814186721::1642922286::1692558750::1::::<><>::
+Wood Bridge.png::CompressedTexture2D::8257744734782300325::1642842030::1692558750::1::::<><>::
+::res://assets/Sprout Lands/Sprout Lands color pallet/::1692558750
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::7478342574028849502::1689739358::1692558750::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::8980813183049828357::1689739286::1692558750::1::::<><>::
+::res://assets/Sprout Lands/Tilesets/::1692575118
+Fences.png::CompressedTexture2D::2567159369945126345::1640171732::1692558750::1::::<><>::
+Grass.png::CompressedTexture2D::7314759756826087174::1688619934::1692558750::1::::<><>::
+GrassSimple.png::CompressedTexture2D::6532619858179928774::1692575112::1692575118::1::::<><>::
+Hills.png::CompressedTexture2D::4913270489058781006::1640165184::1692558750::1::::<><>::
+Tilled Dirt.png::CompressedTexture2D::2057042100624141009::1688615700::1692558750::1::::<><>::
+Water.png::CompressedTexture2D::1212461906098726574::1640171322::1692558750::1::::<><>::
+Wooden House.png::CompressedTexture2D::2040687866368402376::1640172846::1692558750::1::::<><>::
+::res://assets/Themes/::1692572380
+theme_sproutland.tres::Theme::4511045397000216877::1692572380::0::1::::<><>::
+::res://classes/::1692588820
+Attack.gd::GDScript::-1::1692570054::0::1::::Attack<>RefCounted<>::
+PlayerState.gd::GDScript::-1::1692588820::0::1::::PlayerState<>State<>::
+State.gd::GDScript::-1::1692588034::0::1::::State<>Node<>::
+StateMachine.gd::GDScript::-1::1692588260::0::1::::StateMachine<>Node<>::
+state_machine.tscn::PackedScene::5480373856576633208::1692588330::0::1::::<><>::res://classes/StateMachine.gd
+::res://components/::1692575620
+health_component.gd::GDScript::-1::1692572412::0::1::::HealthComponent<>Node2D<>::
+health_component.tscn::PackedScene::1947370428940575080::1692570108::0::1::::<><>::res://components/health_component.gd
+hitbox_component.gd::GDScript::-1::1692575620::0::1::::HitboxComponent<>Area2D<>::
+hitbox_component.tscn::PackedScene::7517016817486244362::1692570738::0::1::::<><>::res://components/hitbox_component.gd
+::res://entities/::1692589692
+attack_state.gd::GDScript::-1::1692589692::0::1::::<>PlayerState<>::
+idle_state.gd::GDScript::-1::1692589476::0::1::::<>PlayerState<>::
+Player.gd::GDScript::-1::1692589200::0::1::::Player<>CharacterBody2D<>::
+Player.tscn::PackedScene::7079779791313100680::1692589692::0::1::::<><>::res://entities/Player.gd<>uid://20k524eenm3y::::res://components/health_component.tscn<>uid://dfdkf0b6ph43w::::res://components/hitbox_component.tscn<>uid://cjnmpoy0f3pcb::::res://assets/Sprout Lands/Characters/Basic Charakter Actions.png<>uid://dpwvjgo0nl5hj::::res://assets/Sprout Lands/Characters/Basic Charakter Spritesheet.png<>uid://ckcy7r8eka3iy::::res://classes/state_machine.tscn<>res://entities/idle_state.gd<>res://entities/walk_state.gd<>res://entities/attack_state.gd
+walk_state.gd::GDScript::-1::1692589362::0::1::::<>PlayerState<>::
+::res://global/::1692558714
+::res://menus/::1692571688
+Title.gd::GDScript::-1::1692568646::0::1::::<>Node2D<>::
+Title.tscn::PackedScene::8510461767531269552::1692571688::0::1::::<><>::res://menus/Title.gd<>uid://b5jgi17wxpqf2::::res://assets/Themes/theme_sproutland.tres
+::res://scenes/::1692588820
+TileMap.gd::GDScript::-1::1692575566::0::1::::<>TileMap<>::
+World.tscn::PackedScene::8286770647826236402::1692588820::0::1::::<><>::uid://dchla3k00srlm::::res://assets/Sprout Lands/Tilesets/Grass.png<>uid://c74q66imopamy::::res://entities/Player.tscn<>res://scenes/TileMap.gd
