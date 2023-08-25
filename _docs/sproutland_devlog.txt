@@ -1,0 +1,10 @@
+Objects:
+# Player
+Enemy (cow, chicken) -- test hitbox, hurtbox, health, animations
+ -- test state machine and animations?
+Static Breakable (Tree,  Crates) -- test hurtbox
+Static Unbreakable (Bridge, Fence) -- test collision
+
+Background:?
+Water (for bridge)
+Paths

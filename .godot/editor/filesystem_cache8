@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1692599685
+::res://::1692882539
 export_presets.cfg::TextFile::-1::1692589762::0::1::::<><>::
+README.md::TextFile::-1::1692602067::0::1::::<><>::
 ::res://assets/::1692564812
 ::res://assets/Sprout Lands/::1692558550
 read_me.txt::TextFile::-1::1657830314::0::1::::<><>::
@@ -35,27 +36,23 @@ Water.png::CompressedTexture2D::1212461906098726574::1640171322::1692558750::1::
 Wooden House.png::CompressedTexture2D::2040687866368402376::1640172846::1692558750::1::::<><>::
 ::res://assets/Themes/::1692572380
 theme_sproutland.tres::Theme::4511045397000216877::1692572380::0::1::::<><>::
-::res://classes/::1692588820
+::res://classes/::1692601622
 Attack.gd::GDScript::-1::1692570054::0::1::::Attack<>RefCounted<>::
-PlayerState.gd::GDScript::-1::1692588820::0::1::::PlayerState<>State<>::
-State.gd::GDScript::-1::1692588034::0::1::::State<>Node<>::
-StateMachine.gd::GDScript::-1::1692588260::0::1::::StateMachine<>Node<>::
-state_machine.tscn::PackedScene::5480373856576633208::1692588330::0::1::::<><>::res://classes/StateMachine.gd
-::res://components/::1692575620
+::res://components/::1692665760
 health_component.gd::GDScript::-1::1692572412::0::1::::HealthComponent<>Node2D<>::
 health_component.tscn::PackedScene::1947370428940575080::1692570108::0::1::::<><>::res://components/health_component.gd
-hitbox_component.gd::GDScript::-1::1692575620::0::1::::HitboxComponent<>Area2D<>::
+hitbox_component.gd::GDScript::-1::1692665760::0::1::::HitboxComponent<>Area2D<>::
 hitbox_component.tscn::PackedScene::7517016817486244362::1692570738::0::1::::<><>::res://components/hitbox_component.gd
-::res://entities/::1692589692
-attack_state.gd::GDScript::-1::1692589692::0::1::::<>PlayerState<>::
-idle_state.gd::GDScript::-1::1692589476::0::1::::<>PlayerState<>::
-Player.gd::GDScript::-1::1692589200::0::1::::Player<>CharacterBody2D<>::
-Player.tscn::PackedScene::7079779791313100680::1692589692::0::1::::<><>::res://entities/Player.gd<>uid://20k524eenm3y::::res://components/health_component.tscn<>uid://dfdkf0b6ph43w::::res://components/hitbox_component.tscn<>uid://cjnmpoy0f3pcb::::res://assets/Sprout Lands/Characters/Basic Charakter Actions.png<>uid://dpwvjgo0nl5hj::::res://assets/Sprout Lands/Characters/Basic Charakter Spritesheet.png<>uid://ckcy7r8eka3iy::::res://classes/state_machine.tscn<>res://entities/idle_state.gd<>res://entities/walk_state.gd<>res://entities/attack_state.gd
-walk_state.gd::GDScript::-1::1692589362::0::1::::<>PlayerState<>::
+::res://entities/::1692665760
+Player.gd::GDScript::-1::1692655968::0::1::::Player<>CharacterBody2D<>::
+Player.tscn::PackedScene::7079779791313100680::1692665760::0::1::::<><>::res://entities/Player.gd<>uid://20k524eenm3y::::res://components/health_component.tscn<>uid://dfdkf0b6ph43w::::res://components/hitbox_component.tscn<>uid://cjnmpoy0f3pcb::::res://assets/Sprout Lands/Characters/Basic Charakter Actions.png<>uid://dpwvjgo0nl5hj::::res://assets/Sprout Lands/Characters/Basic Charakter Spritesheet.png
 ::res://global/::1692558714
 ::res://menus/::1692571688
 Title.gd::GDScript::-1::1692568646::0::1::::<>Node2D<>::
-Title.tscn::PackedScene::8510461767531269552::1692571688::0::1::::<><>::res://menus/Title.gd<>uid://b5jgi17wxpqf2::::res://assets/Themes/theme_sproutland.tres
-::res://scenes/::1692588820
-TileMap.gd::GDScript::-1::1692575566::0::1::::<>TileMap<>::
-World.tscn::PackedScene::8286770647826236402::1692588820::0::1::::<><>::uid://dchla3k00srlm::::res://assets/Sprout Lands/Tilesets/Grass.png<>uid://c74q66imopamy::::res://entities/Player.tscn<>res://scenes/TileMap.gd
+Title.tscn::PackedScene::8510461767531269552::1692571688::0::1::::<><>::res://menus/Title.gd<>uid://b5jgi17wxpqf2
+::res://scenes/::1692665760
+TileMap.gd::GDScript::-1::1692601986::0::1::::<>TileMap<>::
+World.tscn::PackedScene::8286770647826236402::1692665760::0::1::::<><>::uid://dchla3k00srlm::::res://assets/Sprout Lands/Tilesets/Grass.png<>uid://c74q66imopamy::::res://entities/Player.tscn<>res://scenes/TileMap.gd
+::res://_docs/::1692667028
+sproutland_devlog.txt::TextFile::-1::1692667020::0::1::::<><>::
+::res://_exports/::1692665952

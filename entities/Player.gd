@@ -9,6 +9,7 @@ extends CharacterBody2D
 var direction : Vector2 = Vector2.ZERO
 var can_attack = true
 
+
 func _ready():
 	animation_tree.active = true
 	animation_tree["parameters/conditions/attack_hold_timeout"] = false
@@ -20,7 +21,6 @@ func _process(_delta):
 	
 
 func _physics_process(_delta):
-	
 	direction = get_input_direction()
 	if direction:
 		velocity = direction * SPEED
@@ -28,17 +28,21 @@ func _physics_process(_delta):
 		velocity = Vector2.ZERO
 	move_and_slide()
 
+
 func get_input_direction() -> Vector2:
 	return Input.get_vector("left", "right", "up", "down").normalized()
 	
+
 func update_animation_parameters():
 	
+	# reset timers
 	var state_machine = $AnimationTree.get("parameters/playback")
 	if state_machine.get_current_node() != "Attack_Hold":
 		animation_tree["parameters/conditions/attack_hold_timeout"] = false
 	if state_machine.get_current_node() != "Attack_Release":
 		animation_tree["parameters/conditions/attack_release_timeout"] = false
 	
+	# set state machine variables
 	var is_idle := velocity == Vector2.ZERO
 	animation_tree["parameters/conditions/idle"] = is_idle
 	animation_tree["parameters/conditions/is_moving"] = not is_idle
@@ -51,6 +55,7 @@ func update_animation_parameters():
 	else:
 		animation_tree["parameters/conditions/attack"] = false
 	
+	# apply direction
 	if direction != Vector2.ZERO:
 		animation_tree["parameters/Idle/blend_position"] = direction
 		animation_tree["parameters/Attack_Hold/blend_position"] = direction

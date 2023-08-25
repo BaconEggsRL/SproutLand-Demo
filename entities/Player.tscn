@@ -1100,7 +1100,6 @@ zoom = Vector2(3.5, 3.5)
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_c1in0")
 animation = &"Idle_Left"
-frame = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
